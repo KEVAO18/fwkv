@@ -1,0 +1,27 @@
+/****************************/
+/*          banner          */
+/****************************/
+
+
+.view {
+  background: url("../media/ocean.jpg")no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (min-width: 601px) {
+  .view {
+    overflow: visible;
+    margin-top: -56px;
+  }
+}
+
+html,body,header,.view {
+  height: 100vh;
+}
+
+@media (max-width: 600px) {  
+  html,body,header,.view {
+    height: 80vh;
+  }
+}

@@ -1,0 +1,51 @@
+:root {
+  --main-color: #e74c3c;
+  --color-1: #c0392b;
+  --color-2: #fefefe;
+  --color-3: #222222;
+  --color-4: #000000;
+  --color-5: #fefefe25;
+  --color-6: #3d3d3d;
+}
+
+/****************************/
+/*          fondos          */
+/****************************/
+
+
+.bg-main{background: var(--main-color);}
+
+.bg-1{background: var(--color-1);}
+
+.bg-2{background: var(--color-2);}
+
+.bg-3{background: var(--color-3);}
+
+.bg-4{background: var(--color-4);}
+
+.bg-5{background: var(--color-5);}
+
+.bg-6{background: var(--color-6);}
+
+
+
+/****************************/
+/*          color           */
+/****************************/
+
+
+.top-bar>i{color: var(--color-2);}
+
+.color-main{color: var(--main-color);}
+
+.color-1{color: var(--color-1);}
+
+.color-2{color: var(--color-2);}
+
+.color-3{color: var(--color-3);}
+
+.color-4{color: var(--color-4);}
+
+.color-5{color: var(--color-5);}
+
+.color-6{color: var(--color-6);}
